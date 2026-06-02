@@ -150,3 +150,8 @@ nav a{
         gap:20px;
     }
 }
+.small-note{
+    margin-top:30px;
+    color:#777;
+    font-size:0.95rem;
+}
