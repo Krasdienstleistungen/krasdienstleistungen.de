@@ -125,23 +125,19 @@ nav a{
     display:flex;
     gap:40px;
 }
-
 .cta-button{
     display:inline-block;
     margin-top:50px;
     background:#111;
-    color:white;
-    padding:18px 36px;
-    border-radius:100px;
+    color:#fff;
+    padding:16px 32px;
+    border-radius:999px;
     text-decoration:none;
-    font-size:1rem;
     font-weight:500;
-    transition:all .25s ease;
 }
 
 .cta-button:hover{
-    transform:translateY(-3px);
-    opacity:.9;
+    opacity:0.9;
 }
 
 @media(max-width:768px){
