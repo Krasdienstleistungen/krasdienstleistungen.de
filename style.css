@@ -104,3 +104,52 @@ li:hover{
         font-size:1.1rem;
     }
 }
+nav{
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:25px 60px;
+    background:rgba(255,255,255,.95);
+    backdrop-filter:blur(10px);
+    z-index:1000;
+}
+
+nav a{
+    text-decoration:none;
+    color:#111;
+}
+
+.nav-links{
+    display:flex;
+    gap:40px;
+}
+
+.cta-button{
+    display:inline-block;
+    margin-top:50px;
+    background:#111;
+    color:white;
+    padding:16px 32px;
+    border-radius:999px;
+    text-decoration:none;
+    transition:.3s;
+}
+
+.cta-button:hover{
+    transform:translateY(-2px);
+}
+
+@media(max-width:768px){
+
+    nav{
+        padding:20px;
+    }
+
+    .nav-links{
+        gap:20px;
+    }
+}
