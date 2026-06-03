@@ -58,7 +58,11 @@ h1{
     animation:fadeUp 1s ease forwards;
     animation-delay:1.2s;
 }
-
+.cta-button{
+    opacity:0;
+    animation:fadeUp 1s ease forwards;
+    animation-delay:1.6s;
+}
 .leistungen,
 .kontakt{
     max-width:900px;
@@ -182,7 +186,7 @@ nav a{
 
 .service h3{
     font-size:1.5rem;
-    front-weight:600;
+    font-weight:600;
     margin-bottom:8px;
 }
 
