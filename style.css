@@ -235,3 +235,20 @@ nav a{
     color:#111;
     text-decoration:none;
 }
+.contact-section{
+    max-width:900px;
+    margin:120px auto;
+    padding:0 40px;
+    text-align:center;
+}
+
+.contact-text{
+    font-size:1.2rem;
+    color:#666;
+    margin-bottom:30px;
+}
+
+.contact-location{
+    margin-top:25px;
+    color:#777;
+}
