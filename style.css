@@ -152,7 +152,7 @@ nav a{
 }
 .services{
     max-width:1000px;
-    margin:200px auto;
+    margin:120px auto;
     padding:0 40px;
 }
 
@@ -169,8 +169,8 @@ nav a{
 }
 
 .service h3{
-    font-size:1.8rem;
-    font-weight:600;
+    font-size:1.6rem;
+    margin-bottom:10px;
 }
 
 .service p{
