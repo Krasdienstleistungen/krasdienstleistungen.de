@@ -31,6 +31,7 @@ body{
 
     opacity:0;
     animation:logoIntro 1.2s ease forwards;
+    will-change: transform, opacity;
 }
 
 @keyframes logoIntro{
