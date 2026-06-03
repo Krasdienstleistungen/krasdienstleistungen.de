@@ -4,14 +4,21 @@ window.addEventListener('scroll', () => {
 
     const scroll = window.scrollY;
 
-    const scale = Math.max(0.3, 1 - scroll / 500);
+    // Erste 100px passiert fast nichts
+    const adjustedScroll = Math.max(0, scroll - 100);
 
-    const moveY = scroll * 1.5;
+    // Langsamer schrumpfen
+    const scale = Math.max(0.45, 1 - adjustedScroll / 1200);
+
+    // Langsamer nach oben bewegen
+    const moveY = adjustedScroll * 0.7;
+
+    // Langsamer ausblenden
+    const opacity = Math.max(0, 1 - adjustedScroll / 600);
 
     logo.style.transform =
         `translateY(-${moveY}px) scale(${scale})`;
 
-    logo.style.opacity =
-        Math.max(0, 1 - scroll / 400);
+    logo.style.opacity = opacity;
 
 });
