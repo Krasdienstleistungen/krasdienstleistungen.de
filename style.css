@@ -150,3 +150,29 @@ nav a{
         gap:20px;
     }
 }
+.services{
+    max-width:1000px;
+    margin:200px auto;
+    padding:0 40px;
+}
+
+.services h2{
+    font-size:3rem;
+    margin-bottom:80px;
+    text-align:center;
+}
+
+.service{
+    padding:40px 0;
+    border-bottom:1px solid #e5e5e5;
+}
+
+.service h3{
+    font-size:2rem;
+    margin-bottom:10px;
+}
+
+.service p{
+    color:#666;
+    font-size:1.1rem;
+}
