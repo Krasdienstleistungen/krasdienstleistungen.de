@@ -31,7 +31,7 @@ body{
     margin-bottom:15px;
 
     opacity:0;
-    transform:translateY(50px);
+    transform:translateY(30px);
     animation:logoIntro 1.2s ease forwards;
 }
 
