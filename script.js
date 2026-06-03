@@ -1,18 +1,32 @@
 const logo = document.querySelector('.logo');
+const subtitle = document.querySelector('.subtitle');
+const intro = document.querySelector('.intro');
+const button = document.querySelector('.cta-button');
 
 window.addEventListener('scroll', () => {
 
     const scroll = window.scrollY;
 
-    const scale = Math.max(0.4, 1 - scroll / 1000);
-
-    const moveY = scroll * 1.2;
-
-    const opacity = Math.max(0, 1 - scroll / 500);
+    // Logo
+    const logoScale = Math.max(0.85, 1 - scroll / 5000);
+    const logoMove = scroll * 0.4;
+    const logoOpacity = Math.max(0, 1 - scroll / 1200);
 
     logo.style.transform =
-        `translateY(-${moveY}px) scale(${scale})`;
+        `translateY(-${logoMove}px) scale(${logoScale})`;
 
-    logo.style.opacity = opacity;
+    logo.style.opacity = logoOpacity;
+
+    // Untertitel
+    subtitle.style.transform =
+        `translateY(-${scroll * 0.15}px)`;
+
+    // Beschreibung
+    intro.style.transform =
+        `translateY(-${scroll * 0.08}px)`;
+
+    // Button bleibt fast stehen
+    button.style.transform =
+        `translateY(-${scroll * 0.03}px)`;
 
 });
