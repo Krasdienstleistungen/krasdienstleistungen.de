@@ -211,3 +211,19 @@ nav a{
     }
 
 }
+.whatsapp-button{
+    display:inline-block;
+    margin-top:20px;
+    padding:14px 28px;
+    border:1px solid #111;
+    border-radius:999px;
+    text-decoration:none;
+    color:#111;
+    font-weight:500;
+    transition:all .2s ease;
+}
+
+.whatsapp-button:hover{
+    background:#111;
+    color:#fff;
+}
