@@ -30,17 +30,21 @@ body{
     margin-bottom:20px;
 
     opacity:0;
-    animation:logoIntro 1.2s ease forwards;
-    will-change: transform, opacity;
+
+    animation:logoIntro 2.8s cubic-bezier(0.22, 1, 0.36, 1) forwards;
+
+    will-change:transform, opacity;
 }
 
 @keyframes logoIntro{
     from{
         opacity:0;
+        transform:translateY(20px) scale(0.94);
     }
 
     to{
         opacity:1;
+        transform:translateY(0) scale(1);
     }
 }
 
@@ -48,23 +52,22 @@ h1{
     font-size:clamp(2.2rem,3.5vw,3.8rem);
     letter-spacing:-1px;
 }
-
 .subtitle{
     opacity:0;
-    animation:fadeUp 0.8s ease forwards;
-    animation-delay:1.0s;
+    animation:fadeUp 1.2s ease forwards;
+    animation-delay:1.8s;
 }
 
 .intro{
     opacity:0;
-    animation:fadeUp 0.8s ease forwards;
-    animation-delay:1.0s;
+    animation:fadeUp 1.2s ease forwards;
+    animation-delay:2.3s;
 }
 
 .cta-button{
     opacity:0;
-    animation:fadeUp 0.8s ease forwards;
-    animation-delay:1.8s;
+    animation:fadeUp 1.2s ease forwards;
+    animation-delay:2.9s;
 }
 .leistungen,
 .kontakt{
