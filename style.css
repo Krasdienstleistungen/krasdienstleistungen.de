@@ -26,9 +26,9 @@ body{
 }
 
 .logo{
-    width:600px;
+    width:650px;
     max-width:90%;
-    margin-bottom:30px;
+    margin-bottom:15px;
 
     opacity:0;
     transform:translateY(50px);
