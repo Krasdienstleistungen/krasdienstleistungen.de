@@ -7,7 +7,6 @@ window.addEventListener('scroll', () => {
 
     const scroll = window.scrollY;
 
-    // Logo
     const logoScale = Math.max(0.85, 1 - scroll / 5000);
     const logoMove = scroll * 0.4;
     const logoOpacity = Math.max(0, 1 - scroll / 1200);
@@ -17,15 +16,12 @@ window.addEventListener('scroll', () => {
 
     logo.style.opacity = logoOpacity;
 
-    // Untertitel
     subtitle.style.transform =
         `translateY(-${scroll * 0.15}px)`;
 
-    // Beschreibung
     intro.style.transform =
         `translateY(-${scroll * 0.08}px)`;
 
-    // Button bleibt fast stehen
     button.style.transform =
         `translateY(-${scroll * 0.03}px)`;
 
