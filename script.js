@@ -4,17 +4,11 @@ window.addEventListener('scroll', () => {
 
     const scroll = window.scrollY;
 
-    // Erste 100px passiert fast nichts
-    const adjustedScroll = Math.max(0, scroll - 100);
+    const scale = Math.max(0.4, 1 - scroll / 1000);
 
-    // Langsamer schrumpfen
-    const scale = Math.max(0.45, 1 - adjustedScroll / 1200);
+    const moveY = scroll * 1.2;
 
-    // Langsamer nach oben bewegen
-    const moveY = adjustedScroll * 0.7;
-
-    // Langsamer ausblenden
-    const opacity = Math.max(0, 1 - adjustedScroll / 600);
+    const opacity = Math.max(0, 1 - scroll / 500);
 
     logo.style.transform =
         `translateY(-${moveY}px) scale(${scale})`;
