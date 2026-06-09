@@ -16,7 +16,7 @@ body{
 }
 
 .hero{
-    min-height:110vh;
+    min-height:90vh;
     display:flex;
     flex-direction:column;
     justify-content:center;
@@ -25,7 +25,7 @@ body{
     padding:40px;
 }
 .logo{
-    width:650px;
+    width:600px;
     max-width:90%;
     margin-bottom:10px;
 
