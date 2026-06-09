@@ -117,7 +117,9 @@ li:hover{
     }
 
     .intro{
-        font-size:1.1rem;
+     font-size:0.95rem;
+    line-height:1.6;
+    max-width:300px;
     }
 
     li{
