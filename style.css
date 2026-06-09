@@ -103,8 +103,9 @@ li:hover{
 @media(max-width:768px){
 
     .logo{
-        width:430px;
-        max-width:100%;
+        width:280px;
+        max-width:85%;
+        margin-botton:30px;
     }
 
     h1{
