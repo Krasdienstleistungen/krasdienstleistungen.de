@@ -321,3 +321,8 @@ nav a{
 #kontakt{
     scroll-margin-top: 50px;
 }
+.legal-content{
+    text-align:left;
+    max-width:700px;
+    margin:auto;
+}
