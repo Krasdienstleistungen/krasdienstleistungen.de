@@ -309,3 +309,6 @@ nav a{
 .footer a:hover{
     color:#111;
 }
+#kontakt{
+    scroll-margin-top: 50px;
+}
