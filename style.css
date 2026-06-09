@@ -102,9 +102,14 @@ li:hover{
 
 @media(max-width:768px){
 
+     .hero{
+        min-height:80vh;
+        padding-top:0;
+    }
+
     .logo{
-        width:340px;
-        max-width:90%;
+        width:280px;
+        max-width:85%;
         margin-botton:30px;
     }
 
