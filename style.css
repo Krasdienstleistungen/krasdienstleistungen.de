@@ -107,7 +107,13 @@ li:hover{
         max-width:85%;
         margin-botton:30px;
     }
+    
+   .hero{
+        min-height:auto;
+        padding:120px 20px 80px;
+    }
 
+}
     h1{
         font-size:3rem;
     }
