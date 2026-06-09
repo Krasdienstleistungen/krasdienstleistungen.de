@@ -105,15 +105,13 @@ li:hover{
     .logo{
         width:280px;
         max-width:85%;
-        margin-botton:30px;
+        margin-bottom:30px;
     }
     
    .hero{
         min-height:auto;
         padding:120px 20px 80px;
     }
-
-}
      h1{
         font-size:2.4rem;
         line-height:1.1;
