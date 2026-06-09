@@ -124,7 +124,8 @@ li:hover{
         font-size:1.1rem;
     }
     .subtitle{
-    font-size:1.15rem;
+    font-size:0.95rem;
+    font-weight:500;    
     }
     .cta-button{
     padding:14px 28px;
