@@ -367,5 +367,18 @@ nav a{
         height:280px;
         border-radius:20px;
     }
+    .hero-image{
+    height:250px;
+    border-radius:20px;
+    margin:25px 0 35px;
+}
 
+}
+.hero-image{
+    width:100%;
+    max-width:1000px;
+    height:450px;
+    object-fit:cover;
+    border-radius:30px;
+    margin:40px 0 50px;
 }
