@@ -373,22 +373,23 @@ nav a{
     font-size:1.1rem;
     margin-bottom:40px;
 }
+ }
 
-/* Mobile Kontaktleiste */
+/* Kontaktleiste: standardmäßig auf allen Geräten aus */
 .mobile-contact-bar {
-    display: none;
+    display: none !important;
 }
 
-@media (max-width: 768px) {
+/* Nur auf Smartphones */
+@media screen and (max-width: 768px) {
 
     body {
         padding-bottom: 110px;
     }
 
     .mobile-contact-bar {
-        display: flex;
+        display: flex !important;
         position: fixed;
-
         left: 16px;
         right: 16px;
         bottom: calc(12px + env(safe-area-inset-bottom));
@@ -399,8 +400,7 @@ nav a{
         background: #ffffff;
         border: 1px solid #e5e5e5;
         border-radius: 22px;
-
-        box-shadow: 0 4px 25px rgba(0, 0, 0, 0.12);
+        box-shadow: 0 4px 25px rgba(0,0,0,0.12);
 
         z-index: 9999;
 
@@ -413,7 +413,6 @@ nav a{
         display: flex;
         justify-content: center;
         align-items: center;
-
         min-height: 54px;
         padding: 12px 8px;
 
@@ -434,18 +433,22 @@ nav a{
         border: 1px solid #111111;
     }
 
+    .hero .cta-button {
+        display: none !important;
+    }
+
     @keyframes mobileBarIn {
         from {
             opacity: 0;
             transform: translateY(20px);
         }
-
         to {
             opacity: 1;
             transform: translateY(0);
         }
     }
 }
+
     /* Alten Anfrage-Button auf Smartphones ausblenden */
 @media (max-width: 768px) {
     .hero .cta-button {
