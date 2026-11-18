@@ -446,3 +446,9 @@ nav a{
         }
     }
 }
+    /* Alten Anfrage-Button auf Smartphones ausblenden */
+@media (max-width: 768px) {
+    .hero .cta-button {
+        display: none;
+    }
+}
